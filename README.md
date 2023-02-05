@@ -1,11 +1,9 @@
 ## Spring Boot Security | JPA | JWT Authentication
-
 Dans ce repo, nous allons créer un exemple d'authentification Spring Boot (Connexion et inscription) et d'autorisation
 basée sur les rôles avec JWT, Spring Security et Spring Data JPA.
 
 ### Technologie
 ---
-
 - Java 11
 - Spring Boot 2.7.3 (with Spring Security, Spring Web, Spring Data MongoDB)
 - jjwt 0.9.1
@@ -18,7 +16,6 @@ basée sur les rôles avec JWT, Spring Security et Spring Data JPA.
 
 ### Explication codes sources
 ---
-
 - `WebSecurityConfigurerAdapter` - est le cœur de notre implémentation de sécurité. Il fournit des
   HttpSecurityconfigurations pour configurer cors, csrf, la gestion de session, les règles pour les ressources
   protégées.
